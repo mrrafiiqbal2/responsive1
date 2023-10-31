@@ -1,0 +1,477 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Lilita One', sans-serif;
+}
+a{
+	text-decoration: none;
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+	list-style: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*header start*/
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: black;
+	font-size: 26px;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 40px;
+   font-family: 'Lilita One', sans-serif;
+}
+.header .img-fluid{
+	width: 80%;
+	height: auto;
+	margin: 0px 0px 0px 30px;
+}
+
+.banner{
+	width: 100%;
+	padding: 100px 0px;
+	background: url("../images/Background.png") center top no-repeat;
+	background-size: cover;
+}
+.banner-img .img-fluid{
+	width: 70%;
+	height: auto;
+	text-align: center;	
+}
+.banner .title{
+	width: 100%;
+	text-align: center;
+	padding: 120px 0px;
+}
+.banner .title h1{
+  padding: 10px 0px;
+  font-size: 72px;
+  font-weight: 700;
+  color: black;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+}
+.banner .title p{
+    padding: 10px 0px;
+  font-weight: 400;
+  color: black;
+  line-height: 1.4em;
+  text-transform: capitalize;
+}
+.bann-btn .btn-success{
+	padding: 10px 70px;
+	text-transform: uppercase;
+	color: black;
+	background: #b5cbc8;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	border: 1px solid #b5cbc8;
+	border-radius: 1px;
+}
+.bann-btn .btn-success:hover{
+	background: white;
+	color: black;
+	transition: 1s;
+}
+
+/*header end*/
+
+/*choose start*/
+.class{
+	width: 100%;
+	padding: 80px 0px;
+	background: #6c9894;
+	
+}
+.class .title{
+	text-align: center;
+}
+.class .title h1{
+     padding: 10px 0px;
+  font-size: 72px;
+  font-weight: 700;
+  color: black;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.class .title p{
+    padding: 10px 0px;
+  font-weight: 400;
+  color: black;
+  line-height: 1.4em;
+  text-transform: capitalize;
+
+}
+
+.class-img{
+	padding: 80px 0px;
+	text-align: center;
+	background: url("../images/Design2.png") center top no-repeat;
+	background-size: cover;
+}
+
+.title-class{
+	padding: 20px 0px;
+	text-align: center;
+}
+.title-class h1{
+  font-size: 42px;
+  font-weight: 700;
+  color: black;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.title-class p{
+  padding: 10px 0px;
+  font-weight: 400;
+  color: black;
+  line-height: 1.4em;
+  text-transform: capitalize
+}
+/*choose end*/
+
+/*our-stars start*/
+.our-stars{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/starsbg.png") center top no-repeat;
+	background-size: cover;
+}
+.our-stars .title{
+	text-align: center;
+	padding: 20px 0px;
+}
+.our-stars .title h1{
+	font-size: 62px;
+  font-weight: 700;
+  color: black;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.our-stars .title p{
+  padding: 10px 0px;
+  font-weight: 400;
+  color: black;
+  line-height: 1.4em;
+  text-transform: capitalize
+}
+.stars-img{
+	text-align: center;
+	padding: 60px 0px;
+}
+
+/*.stars end*/
+
+/*instructor start*/
+.instructor{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background: url("../images/Backgroundgrp4.png") center top no-repeat;
+	background-size: cover;
+}
+.instructor .title{
+	padding: 290px 0px;
+
+}
+
+.instructor-btn .btn-success{
+	padding: 10px 70px;
+	text-transform: uppercase;
+	color: black;
+	background: #b5cbc8;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	border: 1px solid #b5cbc8;
+	border-radius: 1px;
+}
+.instructor-btn .btn-success:hover{
+	background: white;
+	color: black;
+	transition: 1s;
+}
+/*instruction end*/
+
+/*experiance start*/
+.experiance{
+	width: 100%;
+	padding: 40px 0px;
+	background: url("../images/Shape.png") center top no-repeat;
+	background-size: cover;
+}
+.experiance .title{
+	width: 100%;
+	padding: 250px 0px;
+/*	margin: 0px 0px 0px 100px;*/
+}
+.experiance .title h1{
+	font-size: 62px;
+  font-weight: 700;
+  color: black;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.experiance .title p{
+  padding: 10px 0px;
+  font-weight: 400;
+  color: black;
+  line-height: 1.4em;
+  text-transform: capitalize
+}
+.experiance .btn-success{
+	padding: 10px 70px;
+	text-transform: uppercase;
+	color: black;
+	background: #b5cbc8;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	border: 1px solid #b5cbc8;
+	border-radius: 1px;
+}
+.experiance .btn-success:hover{
+	background: white;
+	color: black;
+	transition: 1s;
+}
+/*experiance end*/
+
+/*section-pricing start*/
+.section-pricing{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/pricingbg.png") center top no-repeat;
+	background-size: cover;
+}
+.section-pricing .title{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.section-pricing .title h1{
+	font-size: 62px;
+  font-weight: 700;
+  color: black;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.section-pricing .title p{
+	padding: 10px 0px;
+  font-weight: 400;
+  color: black;
+  line-height: 1.4em;
+  text-transform: capitalize
+}
+.pricing-card{
+	text-align: center;
+/*	margin: 0px 0px 0px 60px;*/
+}
+.card-body h2{
+	padding: 10px 0px;
+   font-size: 30px;
+  font-weight: 700;
+  color: black;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.card-body h3{
+  padding: 10px 0px;
+   font-size: 30px;
+  font-weight: 700;
+  color: black;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-transform: uppercas
+}
+.card-body p{
+  padding: 10px 0px;
+  font-weight: 400;
+  color: black;
+  line-height: 1.4em;
+  text-transform: capitalize
+}
+.card-icon .fa{
+	padding: 20px 0px;
+	font-size: 50px;
+}
+.pricing-card .btn-primary{
+	padding: 10px 50px;
+	text-transform: uppercase;
+	color: black;
+	background: #b5cbc8;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	border: 1px solid #b5cbc8;
+	border-radius: 1px;
+}
+.pricing-card .btn-primary:hover{
+	background: white;
+	color: black;
+	transition: 1s;
+}
+
+/*pricing end*/
+
+/*group-7 start*/
+.group-7{
+	width: 100%;
+	padding: 180px 0px;
+	background: url("../images/grp7bg.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.group-7 .grp-7-img .img-fluid{
+	width: 30%;
+	height: auto;
+	background: url("../images/Design.png") center top no-repeat;
+	background-size: cover;
+}
+.group-7 .title p{
+	padding: 20px 0px;
+   font-size: 30px;
+  font-weight: 700;
+  color: black;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+/*group-7 end*/
+
+.subscribe{
+	width: 100%;
+	padding: 100px 0px;
+	background: #6c9894;
+	text-align: center;
+}
+.subscribe .title{
+	padding: 20px 0px;
+}
+.subscribe .title h1{
+	padding: 10px 0px;
+   font-size: 70px;
+  font-weight: 700;
+  color: black;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.subscribe .title p{
+	padding: 20px 0px;
+   font-size: 18px;
+  font-weight: 700;
+  color: black;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.subs-form{
+	margin-right: 300px;
+}
+.subscribe .btn-primary{
+	padding: 10px 40px;
+	text-transform: uppercase;
+	color: black;
+	background: #b5cbc8;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	border: 1px solid #b5cbc8;
+	border-radius: 1px;
+}
+.subscribe .btn-primary:hover{
+	background: white;
+	color: black;
+	transition: 1s;
+}
+/*subscribe end*/
+
+/*footer start*/
+
+.footer{
+	width: 100%;
+	padding: 120px 0px;
+	text-align: center;
+	
+}
+
+.footer .logo-footer h5{
+	margin: 15px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	font-size: 30px;
+	
+}
+.footer .text-footer{
+	margin: 0px 0px 0px 50px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
+	line-height: 1.2em;
+	margin-right: 50px;
+}
+.icon-footer .fa{
+	color: black;
+	font-size: 34px;
+	letter-spacing: 8px;
+	margin-left: 20px;
+	border-radius: 100%;
+	margin-top: 10px;
+
+}
+.list-menu{
+	list-style: none;
+}
+
+.footer .list-menu  li a{
+    margin-right: 30px;
+    color: red;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-bottom{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+
+}
+.copyrights{
+	color: black;
+}
+p a{
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none;
+}
+
+/*footer end*/
+
+
+
+
+
